@@ -2,21 +2,23 @@ import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
-    <section 
-      id="hero" 
+    <section
+      id="hero"
       className="relative h-screen bg-cover bg-center flex items-center justify-center text-center p-4"
-      style={{ backgroundImage: `url('https://tse2.mm.bing.net/th/id/OIP.QizVDoLo03IC1KejdIw3nQHaFj?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3')` }}
+      style={{ backgroundImage: `url('https://files.manuscdn.com/search-media/2025/10/14/DNXNsRqnvBb6EVrvsKaevC.jpg' )` }}
     >
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent"></div>
+      {/* Camada de escurecimento maior para reforçar contraste do texto */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent"></div>
       <div className="relative z-10 text-white space-y-6">
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight drop-shadow-lg">
-          Hiroshima e Nagasaki:<br />
+        <h1 className="hero-title text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
+          Hiroshima e Nagasaki:
+
           Uma Lição Inesquecível
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-md">
+        <p className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
           Explore a história, compreenda o impacto e reflita sobre o legado dos bombardeios atômicos que mudaram o mundo.
         </p>
-        <div className="text-lg font-semibold mt-8">
+        <div className="text-base font-semibold mt-6">
           <p>Trabalho Escolar de:</p>
           <p>Exemplo1, Exemplo2, Exemplo3, Exemplo4</p>
         </div>
@@ -29,4 +31,3 @@ export default function Hero() {
     </section>
   );
 }
-
