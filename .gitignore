@@ -44,5 +44,5 @@ pnpm-lock.yaml
 yarn.lock
 
 # npm
-package-lock.json
+# package-lock.json (committed to ensure deterministic CI installs)
 
