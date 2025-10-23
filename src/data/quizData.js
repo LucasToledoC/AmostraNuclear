@@ -1,11 +1,11 @@
 export const quizData = [
   {
     id: 1,
-    question: "Qual foi o principal motivo alegado pelos Estados Unidos para o lançamento das bombas atômicas sobre o Japão?",
+    question: "Qual foi a principal alegação dos EUA para lançar as bombas atômicas sobre o Japão?",
     options: [
       "Vingança pelo ataque a Pearl Harbor.",
       "Testar o poder das novas armas nucleares.",
-      "Forçar a rendição incondicional do Japão e evitar uma invasão terrestre custosa em vidas.",
+      "Evitar a extensão da guerra e mais perdas de vidas (impedir uma invasão terrestre).",
       "Destruir a capacidade industrial japonesa."
     ],
     correctAnswer: 2,
@@ -116,7 +116,7 @@ export const quizData = [
       "6 de agosto de 1945",
       "9 de agosto de 1945"
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     points: 10
   }
 ];
